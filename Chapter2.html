@@ -41,22 +41,24 @@
 	  <b>Investigations 2.1 and 2.2: Visualizing and Describing Quantitative Data</b><br><br>
 	  <img src = "Chapter2/honk.JPG" width = "100%"/>
 	  <b><u>Key Terms</u></b>
-	  <p><b>Data Skew:</b> The direction the data has more points in is the direction it is skewed in. For instance, when the mean is followed by a shallow curved on the right side, meaning more data comes after the mean, then it is "Skewed to the Right."</p>
+	  <p><b>Data Skew:</b> The direction the data is skewed in is the direction of the tail of the data. For instance, if the mean is followed by a shallow curved on the right side, meaning more data comes after the mean, then it is "Skewed to the Right."</p>
 	  <p><b>Resistant: </b>A numerical statistic that is not strongly influenced by a change in one or two extreme data values.</p>
 	  <p><b>Interquartile Range:</b> The IQR is the difference between the upper quartile - lower quartile. This essentially measures the width of the middle 50% of the observations.</p>
+	  <p><b>QQ-Plot:</b> The quantile-quantile plot is a probability plot which measures two probability distribution. Each coordinate (x, y) is chosen such that the x-coordinate corresponds to one quantile and the y-coordinate corresponds to the same quantile from the other distribution. The more similar the distributions, the closer to the line y=x the plot will become.</p>
 	  <p><b>Boxplot: </b>A graph based on the five-number summary, also known as a box-and-whisker plot.</p>
 	  <p><b>Outlier: </b>An outlier is technically defined as any data points that land outside of the upper quartile + 1.5*IQR, and the lower quartile - 1.5*IQR.</p>
 	  <br>
 	  <p>In these investigations we looked at ways to visualize quantitative data, mainly histograms, boxplots, and qqplots. A study in 1996 explored whether driver characteristics are related to an aggressive response, and recorded how long it took drivers to react to a stalled car at a green light. The majority of drivers spent only 2-3 seconds waiting, and we looked at the quartile ranges for the data.</p>
 	  <br><br>
 	  <b>Investigation 2.4: The Ethan Allen</b><br><br>
-	  <p>In this investigation we looked at a tour boat and whether its capsizement could have been predicted. Using generated samples, we looked at the probability that any given sample group would exceed the weight limit of the boat, given the average person weighed 159.6 lbs. The CLT came into play again, to assess the size of our sample group.</p>
+	  <p>In this investigation we looked at a tour boat and whether its capsizement could have been predicted. Using generated samples, we looked at the probability that any given sample group would exceed the weight limit of the boat, given the average person weighed 159.6 lbs. The CLT came into play again, to assess the size of our sample group; the shape of the distribution of sample means does not depend on the shape of the population distribution for "large enough" samples. Thus, 47 appeared large enough to result in a normal distribution. While 47>30, more samples would have helped normalized the sample even further. Furthermore, the less symmetric a population's distribution, the larger a sample size should be to be reasonably modeled by a normal distribution.</p>
 	  <br><br>
 	  <b>Investigations 2.5 and 2.6: </b><br><br>
 	  <b><u>Key Terms</u></b>
 	  <p><b>Standard Error:</b> SE is an estimate of the standard deviation of the sample variability of sample means.</p>
-	  <p><b>One-Sample t-Test for mu:</b> A test for the null hypothesis when the population standard deviation is unkown. In order to use this test, the population must follow a normal distribution, and only when the distribution symmetric or the sample size is large.</p>
-	  <p><b>Prediction Interval:</b> The PI is an interval constructed from the sample mean, adjusted to take into account the additional variability of individual values from the population mean.</p>
+	  <p><b>One-Sample t-Test for mu:</b> A test for the null hypothesis when the population standard deviation is unkown. In order to use this test, the sample must have a symmetric distribution or a large enough sample size. The confidence interval generated uses the critical value the distribution from degrees of freedom = n - 1 instead of a normal distribution.</p>
+	  <p><b>One-Sample t CI:</b> This measures the probability interval based again on degrees of freedom and the t distribution.</p>
+	  <p><b>Prediction Interval:</b> The PI is an interval constructed from the sample mean, adjusted to take into account the additional variability of individual values from the population mean. A PI measures the long run values of future samples, giving a range of values for new observations.</p>
 	  <br>
 	  <p>Investigations 2.5 and 2.6 studied the validity of the antiquated measurement of 98.6 F as a standard body temperature. We used the findings to determine just how accurate the old measurement was, by utilizing the standard error and t-distribution. We were able to reject the null hypothesis and thus the temperature of a healthy adult is likely different than 98.6. We used the prediction interval to estimate with 95% confidence that the body temperature of a healthy adults is anywhere from 96.79 to 99.71.</p>
     </div>
